@@ -15,10 +15,11 @@ public class Triangle extends Shape {
         super.perimeter = a+b+c;
         super.areaFormula = " sqrt(s×(s-a)×(s-b)×(s-c)";
         super.perimeterFormula = "a+b+c";
+        super.fileName = "Triangle";
     }
 
     public String returnFileName(){
-        return "Triangle";
+        return fileName;
     }
 
     public String toString() {

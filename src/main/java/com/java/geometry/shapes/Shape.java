@@ -6,6 +6,7 @@ public abstract class Shape {
     protected double area;
     protected String perimeterFormula;
     protected String areaFormula;
+    protected String fileName;
 
     protected Shape() {}
 

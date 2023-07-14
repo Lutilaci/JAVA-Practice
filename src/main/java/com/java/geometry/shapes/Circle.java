@@ -10,6 +10,7 @@ public class Circle extends Shape {
         super.perimeter = 2 * Math.PI * this.r;
         super.areaFormula = " π×r×r";
         super.perimeterFormula = " 4*a";
+        super.fileName = "Circle";
     }
 
     public String toString(){
@@ -17,6 +18,6 @@ public class Circle extends Shape {
     }
 
     public String returnFileName(){
-        return "Circle";
+        return fileName;
     }
 }

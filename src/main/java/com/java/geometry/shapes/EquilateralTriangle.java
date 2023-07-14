@@ -11,10 +11,11 @@ public class EquilateralTriangle extends Triangle {
         super.perimeter = 3 * a;
         super.areaFormula = " a×a×sqrt(3)/4";
         super.perimeterFormula = " 3×a";
+        super.fileName = "Equilateral Triangle";
     }
 
     public String returnFileName(){
-        return "Equilateral Triangle";
+        return fileName;
     }
 
     public String toString(){

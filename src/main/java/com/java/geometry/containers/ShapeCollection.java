@@ -44,7 +44,7 @@ public class ShapeCollection {
     public double getLargestPerimeter() {
         double perimeter = 0;
         for (Shape p : shapes) {
-            if (p.calculateArea() > perimeter) {
+            if (p.calculatePerimeter() > perimeter) {
                 perimeter = p.calculatePerimeter();
             }
         }

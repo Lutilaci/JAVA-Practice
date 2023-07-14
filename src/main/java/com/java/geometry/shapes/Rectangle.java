@@ -12,6 +12,7 @@ public class Rectangle extends Shape {
         super.perimeter = 2 * (this.a + this.b);
         super.areaFormula = " a×b";
         super.perimeterFormula = " 2*(a+b)";
+        super.fileName = "Rectangle";
     }
 
     public String toString() {
@@ -19,6 +20,6 @@ public class Rectangle extends Shape {
     }
 
     public String returnFileName(){
-        return "Rectangle";
+        return fileName;
     }
 }

@@ -8,14 +8,14 @@ public class Square extends Rectangle {
         super(a, a);
         super.perimeter = 4 * a;
         super.area = a * a;
+        super.fileName = "Square";
         this.a = a;
     }
 
     public String returnFileName(){
-        return "Square";
+        return fileName;
     }
 
-    @Override
     public String toString() {
         return String.format("Square, a = %d", a);
     }

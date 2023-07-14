@@ -10,6 +10,7 @@ public class RegularPentagon extends Shape {
         super.perimeter =  5 * this.a;
         super.areaFormula = " a×a×sqrt(5×(5+2×sqrt(5))/4";
         super.perimeterFormula = " 5×a";
+        super.fileName = "Regular Pentagon";
     }
 
     public String toString() {
@@ -17,6 +18,6 @@ public class RegularPentagon extends Shape {
     }
 
     public String returnFileName(){
-        return "Regular Pentagon";
+        return fileName;
     }
 }
